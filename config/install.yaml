@@ -1,0 +1,20 @@
+
+XLite\Model\Config:
+  - name: is_webp_enabled
+    category: Iidev\AmazonS3ImagesAdvanced
+    type: XLite\View\FormField\Input\Checkbox\OnOffWithoutOffLabel
+    orderby: 100
+    value: ''
+    translations:
+      - code: en
+        option_name: 'Enable WebP'
+  - name: cloudfront_domain
+    category: Iidev\AmazonS3ImagesAdvanced
+    type: XLite\View\FormField\Input\Text
+    orderby: 200
+    value: ''
+    translations:
+      - code: en
+        option_name: 'Amazon CloudFront domain name'
+
+  

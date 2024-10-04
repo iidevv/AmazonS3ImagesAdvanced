@@ -1,0 +1,11 @@
+version: 5.5.0.4
+type: common
+authorName: "Ilya I"
+moduleName: "Cloud Images Storage Advanced"
+description: "The extended version allows you to include WebP images, add content images, support 360 images, etc."
+minorRequiredCoreVersion: 0
+dependsOn:
+  - CDev-AmazonS3Images
+incompatibleWith: {}
+showSettingsForm: true
+canDisable: true

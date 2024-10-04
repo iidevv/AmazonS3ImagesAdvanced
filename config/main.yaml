@@ -6,6 +6,8 @@ description: "The extended version allows you to include WebP images, add conten
 minorRequiredCoreVersion: 0
 dependsOn:
   - CDev-AmazonS3Images
+  - QSL-ShopByBrand
+  - Qualiteam-SkinActMagicImages
 incompatibleWith: {}
 showSettingsForm: true
 canDisable: true
